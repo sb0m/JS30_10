@@ -1,0 +1,44 @@
+/*test {
+    #1c2124
+    color: #424c55; rgba(66, 76, 85, 0.5);
+    color: #2e86ab;
+    color: #084c61;
+    color: #a1d2ce;
+    color: #e7ecef;
+}*/
+
+html {
+    box-sizing: border-box;
+    background: #424c55;
+    font-family: 'helvetica neue';
+    font-size: 28px;
+    font-weight: 200;
+}
+
+body{
+	font: 11px 'Open Sans', sans-serif;
+	color: #ecebe4;
+	text-align:center;
+    background-color: #424c55;
+    padding: 3em;
+    margin: 0;
+}
+
+/*.regular-checkbox {
+	-moz-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}*/
+
+span, input {
+   vertical-align: middle;
+}
+
+.crossedOut {
+    text-decoration: line-through;
+}
